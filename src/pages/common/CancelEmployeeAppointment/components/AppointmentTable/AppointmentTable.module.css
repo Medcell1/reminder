@@ -1,0 +1,7 @@
+.button_view {
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #21a4f1 !important;
+}

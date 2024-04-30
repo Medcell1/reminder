@@ -1,0 +1,38 @@
+.container {
+    width: 90% !important;
+}
+
+.container_office {
+    width: 100%;
+    background-color: var(--bg-dark-blue);  
+    font-family: 'Vollkorn', serif;
+}
+
+.section_title {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.container_spinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    width: 10rem!important;
+    height: 10rem!important;
+}
+
+.text_loading {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 100% !important;
+    }
+}

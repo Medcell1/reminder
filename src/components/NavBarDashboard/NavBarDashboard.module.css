@@ -1,0 +1,70 @@
+header {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.toggle {
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-dark-blue);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.toggle .icon {
+    color: #fff;
+}
+
+.user {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.user img {
+    width: 30px;
+    height: 30px;
+}
+
+.container_user_info {
+    display: flex;
+    align-items: center;
+}
+
+.user_name {
+    color: #3457D5;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user_role {
+    text-align: center;
+    color: var(--bg-dark-blue);
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Vollkorn', serif;
+}
+
+@media screen and (min-width: 1000px) {
+    .navbar {
+        justify-content: flex-end;
+    }
+}
